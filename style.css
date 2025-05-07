@@ -69,3 +69,21 @@ html {
 .hide {
     display: none !important;
 }
+
+@media(max-width: 395px) {
+
+    html {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    }
+    .container {
+        width: 95%;
+    }
+
+    .question {
+        font-size: 16.5px;
+    }
+
+    .answer {
+        font-size: 14.9px;
+    }
+}
